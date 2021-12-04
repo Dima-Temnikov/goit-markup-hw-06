@@ -398,7 +398,12 @@
                         </li>
                     </ul>
                 </div>
-            
+               
+                    <p class="footer-title">Подпишитесь на рассылку</p>
+                    <form action="#" class="footer-form">
+                        <input id="footer-mail" type="mail" class="footer-input" name="footer-mail" placeholder="E-mail">
+                        <button type="submit" class="footer-btn">Подписаться</button>
+                   </form>
         </div>
     </footer>
 <!----------------backdrop--------------is-hidden------------------>
@@ -427,6 +432,10 @@
 
             <div class="modal-form-field"><label for="user-text" class="modal-input-text">Комментарий</label>
                 <textarea name="user-text" id="user-text"  class="user-coment" placeholder="Введите текст"></textarea>
+            </div>
+            <div class="modal-check">
+                 <input id="agreement" type="checkbox" name="agreement" value="agree">
+                <label  for="agreement" class="agr-txt">Соглашаюсь с рассылкой и принимаю <a class="agr-link link" href="http://">Условия договора</a></label>
             </div>
              
              <button type="submit">Отправить</button>
