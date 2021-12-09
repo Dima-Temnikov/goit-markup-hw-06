@@ -842,6 +842,10 @@ section {
   justify-content: center;
 }
 
+.close-icon:hover {
+  fill: var(--accent-color);
+}
+
 .is-hidden {
   visibility: hidden;
   opacity: 0;
@@ -907,6 +911,7 @@ section {
 }
 
 .user-coment {
+  display: block;
   width: 100%;
   height: 120px;
   margin-bottom: 10px;
